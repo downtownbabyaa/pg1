@@ -1,0 +1,45 @@
+.flex{
+  display: flex;
+}
+.wrap{
+  width: 1200px;
+}
+.margintop15{
+  margin-top: 15%;
+}
+.mb25{
+  margin-bottom: 25px;
+}
+.block{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.h1{
+  font-size: 28px;
+}
+.h2{
+  font-size: 24px;
+}
+.h18{
+  font-size: 18px;
+}
+.h3{
+  font-size: 16px;
+}
+.h4{
+  font-size: 14px;
+}
+.h5{
+  font-size: 11px;
+}
+.bold{
+  font-weight: bold;
+}
+.blue{
+  color: #2e7af6;
+}
+.gray{
+  color: #888;
+}
