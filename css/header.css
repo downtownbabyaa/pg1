@@ -1,0 +1,95 @@
+header {
+  
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  header div.top {
+    margin: 0 auto;
+  }
+  header div.top h1 {
+    
+    position: relative;
+    display: flex;
+    top: 17px;
+    width: 11%;
+    left: 23.9px;
+  }
+  header div.top h1 a{
+    color: black;
+    font-size: 20px;
+  }
+  header div.top h1::before{
+    content: "";
+    background-image: url(../img/icon.png);
+    width: 23.9px;
+    height: 23.9px;
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    left: -25px;
+    top: -1px;
+  }
+  header div.top nav {
+    
+    display: flex;
+    margin-left: 15%;
+  }
+  header div.top nav ul.top1 {
+    
+    display: flex;
+    margin-left: 30px;
+  }
+  header div.top nav ul.top1 li {
+    
+    margin: 0 20px;
+  }
+  header div.top nav ul.top1 li a {
+    color: black;
+  }
+  header div.top nav ul.top2 {
+    
+    display: flex;
+    margin-left: 33px;
+  }
+  header div.top nav ul.top2 li {
+    
+    margin: 0 20px;
+  }
+  header div.top nav ul.top2 li a {
+    color: gray;
+  }
+  header div.top nav ul.top3 {
+    
+    display: flex;
+    width: 24%;
+    justify-content: end;
+  }
+  header div.top nav ul.top3 li {
+    
+    margin: 0 10px;
+  }
+  header div.top nav ul.top3 li a {
+    color: gray;
+  }
+  header div.top nav ul.top3 li:first-child a{
+    
+    position: relative;
+  }
+  header div.top nav ul.top3 li:first-child a::after{
+    content:"";
+    border: 1px solid #ccc;
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: absolute;
+    right: -30%;
+    top: 40%;
+  }
+  header div.top nav p {
+    
+  }
+  header div.top nav p a {
+    color: #0888ff;
+  }

@@ -1,0 +1,109 @@
+/* 하단 영역 */
+footer{
+    margin-top: 50px;
+  }
+  #ff{
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  #f1{
+    width: 100%;
+    position: relative;
+  }
+  #f1 h4{
+    margin-right: 60px;
+    width: 167px;
+  }
+  #f1 select{
+    position: absolute;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 0;
+    scale: 0.9;
+  }
+  #f1 select option{
+  
+  }
+  #f2{
+    margin-top: 25px;
+    line-height: 1.8;
+  }
+  #f2 #f3{
+    width: 167px;
+  }
+  #f2 #f3 a{
+  
+  }
+  #f2 div a{
+    display: inline-block;
+  }
+  #f2 div a:hover{
+    color: #007cff;
+  }
+  #f2 div{
+    margin-right: 60px;
+  }
+  #f2 #f4{
+    width: 167px;
+  }
+  #f2 #f4 a{
+  
+  }
+  #f2 #f5{
+  
+  }
+  #f2 #f5 address{
+  
+  }
+  #f2 #f5 p{
+    font-size: calc(100% * 0.85);
+  }
+  #fb{
+    margin-top: 50px;
+  }
+  #ff2{
+    margin: 0 auto;
+    font-size: calc(14px * 0.86);
+  }
+  #ff2 #fa{
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  #ff2 #fa:hover{
+    color: #007cff;
+  }
+  #ff2 address{
+    line-height: 1.1;
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  #f6{
+    
+    margin-bottom: 70px;
+    position: relative;
+  }
+  #f6 a{
+    margin-right: 20px;
+  }
+  #f6 a:hover{
+    color: #007cff;
+  }
+  #sns{
+    
+    display: inline;
+    right: 0;
+    position: absolute;
+    font-size: 0;
+  }
+  #sns a{
+    
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: #ccc;
+    margin-right: 5px;
+    border-radius: 50%;
+  }

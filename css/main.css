@@ -1,0 +1,384 @@
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+main{
+  height: auto;
+}
+#s{
+  margin: 0 auto;
+}
+#s #ss{
+  margin-top: 5%;
+}
+#s #ssssss{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+#s #ssssss h3{
+  
+}
+#s #ssssss #ss2{
+  font-size: 0;
+}
+#s #ssssss #ss2 .butt{
+  
+}
+#s #ssssss #ss2 .bun1{
+  
+}
+#s #ssssss #ss2 .butt button{
+  width: 160px;
+  height: 45px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #ccc;
+  cursor: pointer;
+}
+#s #ssssss #ss2 .bun1 h3{
+  text-align: center;
+  padding: 45px 0 60px;
+}
+#s #ssssss #ss2 .bun1 .type{
+  text-align: center;
+}
+#s #ssssss #ss2 .bun1 .type .h3{
+  
+}
+#s #ssssss #ss2 .bun1 .type #type{
+  
+}
+#s #ssssss #ss2 .bun1 .type #level{
+  
+}
+#s #ssssss #ss2 .bun1 .type option{
+  
+}
+#s #ssssss #ss2 .bun1 .type select{
+  width: 215px;
+  padding: 10px 20px;
+  margin: 6px;
+  border: 1px solid #ccc;
+  background-color: #fbfbfd;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#s #ssssss #ss2 .bun1 .codt{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+#s #ssssss #ss2 .bun2 h3{
+  text-align: center;
+  padding: 24.5px 0;
+  line-height: 2;
+}
+#s #ssssss #ss2 .bun2 .codt{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+#s #ssssss #ss2 .bun3 h3{
+  text-align: center;
+  padding: 45px 0 60px;
+}
+#s #ssssss #ss2 .bun3 .type{
+  text-align: center;
+}
+#s #ssssss #ss2 .bun3 .type select{
+  width: 215px;
+  padding: 10px 20px;
+  margin: 6px;
+  border: 1px solid #ccc;
+  background-color: #fbfbfd;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#s #ssssss #ss2 .bun3 .codt{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+#s #sss{
+  
+}
+#ssss{
+  
+}
+#ssss img{
+  width: 100%;
+  height: 275px;
+  background-color: black;
+  margin-top: 50px;
+  border-radius: 25px;
+  animation-name: imgch; 
+  animation-duration: 1s; 
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;
+}
+@keyframes imgch{
+  0%{
+    
+  }
+}
+#sssss{
+}
+#sssss #bu{
+  font-size: 0;
+}
+#sssss #bu button{
+  width: 200px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #ccc;
+}
+#sssss #bu button:first-child{
+  border-bottom: 3px solid #2e7af6;
+  color: #2e7af6;
+  font-weight: bold;
+}
+#im{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#im a{
+  margin-top: 30px;
+  height: 100%;
+  color: black;
+}
+#im a::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #111;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-left: 3px;
+  border-color: #ccc;
+  background-image: url(../img/>.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0.4px center;
+}
+#im1{
+  width: 368px;
+  height: 320px;
+  background-color: #111;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+#im2{
+  
+  display: flex;
+}
+#sssss .sc{
+}
+#sssss .scc{
+  
+  justify-content: space-between;
+}
+#sssss .scu{
+  
+}
+#s03{
+  
+  width: 100%;
+}
+#s03 .sc2{
+}
+#s03 .scc2{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#s03 .scc2 .scu2{
+  
+  height: 100%;
+}
+#s03 .scc2 .graph{
+  width: 768px;
+  height: 457px;
+  background-image: url(https://d1nuzc1w51n1es.cloudfront.net/cff243c42f22a5f746d8.png);
+  background-size: contain;
+}
+#s03 .scc2 .a2{
+  position: absolute;
+  top: 100px;
+  left: 0.5px;
+}
+#s03 .scc2 .a2::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #111;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-left: 3px;
+  border-color: #ccc;
+  background-image: url(../img/>.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0.4px center;
+}
+#aaa{
+  
+}
+#aaa #s04{
+  
+}
+#aaa #s04 .sc3{
+  
+}
+#aaa #s04 .scc3{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#aaa #s04 .scc3 .scu3{
+  
+}
+#aaa #s04 .scc3 #mbar{
+  
+}
+#aaa #s04 .scc3 #mbar div{
+  width: 766px;
+  height: 210px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+#aaa #s04 .scc3 .a3{
+  position: absolute;
+  top: 100px;
+  left: 0.5px;
+} 
+#aaa #s04 .scc3 #mbar div:first-child{
+  
+  margin-bottom: 20px;
+}
+#aaa #s04 .scc3 .a3:after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #111;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-left: 3px;
+  border-color: #ccc;
+  background-image: url(../img/>.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0.4px center;
+}
+#aaaa{
+
+}
+#aaaa #s05{
+
+}
+#aaaa #s05 .scc5{
+
+}
+#aaaa #s05 .scc5 .scu5{
+  margin-bottom: 25px;
+}
+#aaaa #s05 div{
+
+  display: flex;
+  justify-content: space-between;
+}
+#aaaa #s05 div a{
+  width: 275px;
+  height: 220px;
+}
+#aaaa #s05 div a div{
+  width: 100%;
+  height: 184px;
+  border: 1px solid;
+  border-radius: 20px;
+  margin-bottom: 11px;
+}
+#aaaa #s05 div a:nth-child(1) div{
+  background-image: url(https://asset.programmers.co.kr/image/origin/production/job_theme/162887/ca476513-5294-4d15-87da-b6df56e4fa15.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #fff3e0
+}
+#aaaa #s05 div a:nth-child(2) div{
+  background-image: url(https://asset.programmers.co.kr/image/origin/production/job_theme/163050/adbe59c6-385f-4283-822f-68f76ede9797.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #e0f2f1
+}
+#aaaa #s05 div a:nth-child(3) div{
+  background-image: url(https://asset.programmers.co.kr/image/origin/production/job_theme/162890/595df8b9-616a-40a5-a7d6-9ac073328287.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #fbe9e7
+}
+#aaaa #s05 div a:nth-child(4) div{
+  background-image: url(https://asset.programmers.co.kr/image/origin/production/job_theme/162891/b5c3c39e-f3c3-409a-8faf-bdc8521ab736.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #e8f5e9
+}
+
+#sppp{
+  background-color: #1c2a4a;
+  height: 247px;
+  background-image: url(https://d1nuzc1w51n1es.cloudfront.net/edcaedb36f9451a8aeaa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 150px center;
+  display: flex;
+  margin-top: 60px;
+}
+#aaaa #s05 div a p{
+  
+}
+#aaaaa{
+  margin-top: 5%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+#aaaaa #s06{
+
+}
+#aaaaa #s06 .scc6{
+
+}
+#aaaaa #s06 .scc6 .scu6{
+
+  color: white;
+  margin-bottom: 20px;
+}
+#aaaaa #s06 .scc6 a{
+
+}
+#aaaaa #s06 .scc6 a button{
+  
+  color: #0084ff;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+

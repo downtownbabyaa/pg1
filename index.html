@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Programmers</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="js/prg.js"></script>
 </head>
 <body>
     <header>
@@ -46,28 +50,103 @@
                     개발자 맞춤 <span class="block"></span>큐레이션을 찾아보세요.
                 </div>
                 <div id="ss2">
-                    <button class="h3 gray">코딩테스트</button>
-                    <button class="h3 gray">스쿨</button>
-                    <button class="h3 gray">커리어</button>
-                    <h3 class="h3">어떤 코딩테스트 유형을 찾으세요?</h3>
+                    <span class="butt flex">
+                        <button class="h3 blueline">코딩테스트</button>
+                        <button class="h3 gray">스쿨</button>
+                        <button class="h3 gray">커리어</button>
+                    </span>
+                    <div class="bun1">
+                            <h3 class="h3">어떤 코딩테스트 유형을 찾으세요?</h3>
+                        </span>    
+                        <div class="type">
+                            <select name="" id="type" class="blue bold">
+                                <option value="" class="hide" selected="selected">프로그래밍 언어 선택</option>
+                                <option value="" class="h3" >C</option>
+                                <option value="" class="h3">C++</option>
+                                <option value="" class="h3">C#</option>
+                                <option value="" class="h3">Go</option>
+                                <option value="" class="h3">Java</option>
+                                <option value="" class="h3">JavaScript</option>
+                                <option value="" class="h3">Kotlin</option>
+                                <option value="" class="h3">Python2</option>
+                                <option value="" class="h3">Python3</option>
+                                <option value="" class="h3">Ruby</option>
+                                <option value="" class="h3">Scala</option>
+                                <option value="" class="h3">Swift</option>
+                                <option value="" class="h3">MySQL</option>
+                                <option value="" class="h3">Oracle</option>
+                            </select>
+                            <select name="" id="level" class="blue bold">
+                                <option value="" class="hide" selected="selected">난이도 선택</option>
+                                <option value="" class="h3">1레벨</option>
+                                <option value="" class="h3">2레벨</option>
+                                <option value="" class="h3">3레벨</option>
+                                <option value="" class="h3">4레벨</option>
+                                <option value="" class="h3">5레벨</option>
+                            </select>
+                        </div>
+                            <button class="codt h3">코딩테스트 보러 가기</button>
+                    </div>
+                    <div class="bun2">
+                            <h3 class="h3">스스로 학습하는 영상/실습 강의부터<br>
+                                동료와 함께 학습하는 스터디, 커뮤러닝,<br>
+                                무료 국비지원 교육까지!<br>
+                                지금 바로 확인해 보세요!
+                            </h3> 
+                            <button class="codt h3">프로그래밍 강의 보러 가기</button>
+                    </div>
+                    <div class="bun3">
+                        <h3 class="h3">어떤 포지션 채용 공고를 찾으세요?</h3>
+                    </span>    
                     <div class="type">
                         <select name="" id="type" class="blue bold">
-                            <option value="" class="hide" selected="selected">프로그래밍 언어 선택</option>
-                            <option value="" class="h3" >C</option>
-                            <option value="" class="h3">C++</option>
-                            <option value="" class="h3">C#</option>
-                            <option value="" class="h3">Java</option>
+                            <option value="" class="hide" selected="selected">직무 선택</option>
+                            <option value="" class="h3" >서버/백엔드</option>
+                            <option value="" class="h3">프론트엔드</option>
+                            <option value="" class="h3">웹 풀스택</option>
+                            <option value="" class="h3">안드로이드 앱</option>
+                            <option value="" class="h3">아이폰 앱</option>
+                            <option value="" class="h3">머신러닝</option>
+                            <option value="" class="h3">인공지능(AI)</option>
+                            <option value="" class="h3">데이터 엔지니어</option>
+                            <option value="" class="h3">DBA</option>
+                            <option value="" class="h3">모바일 게임</option>
+                            <option value="" class="h3">게임 클라이언트</option>
+                            <option value="" class="h3">게임 서버</option>
+                            <option value="" class="h3">시스템/네트워크</option>
+                            <option value="" class="h3">데브옵스</option>
+                            <option value="" class="h3">시스템 소프트웨어</option>
+                            <option value="" class="h3">인터넷 보안</option>
+                            <option value="" class="h3">임베디드 소프트웨어</option>
+                            <option value="" class="h3">로보틱스 미들웨어</option>
+                            <option value="" class="h3">QA</option>
+                            <option value="" class="h3">사물인터넷(IOT)</option>
+                            <option value="" class="h3">응용 프로그램</option>
+                            <option value="" class="h3">블록체인</option>
+                            <option value="" class="h3">개발PM</option>
+                            <option value="" class="h3">웹 퍼블리싱</option>
+                            <option value="" class="h3">크로스 플랫폼</option>
+                            <option value="" class="h3">VR/AR/3D</option>
+                            <option value="" class="h3">ERP</option>
+                            <option value="" class="h3">그래픽스</option>
                         </select>
                         <select name="" id="level" class="blue bold">
-                            <option value="" class="hide" selected="selected">난이도 선택</option>
-                            <option value="" class="h3">1레벨</option>
-                            <option value="" class="h3">2레벨</option>
-                            <option value="" class="h3">3레벨</option>
-                            <option value="" class="h3">4레벨</option>
-                            <option value="" class="h3">5레벨</option>
+                            <option value="" class="hide" selected="selected">경력 선택</option>
+                            <option value="" class="h3">전체</option>
+                            <option value="" class="h3">신입</option>
+                            <option value="" class="h3">1년차</option>
+                            <option value="" class="h3">2년차</option>
+                            <option value="" class="h3">3년차</option>
+                            <option value="" class="h3">4년차</option>
+                            <option value="" class="h3">5년차</option>
+                            <option value="" class="h3">6년차</option>
+                            <option value="" class="h3">7년차</option>
+                            <option value="" class="h3">8년차</option>
+                            <option value="" class="h3">9년차</option>
                         </select>
                     </div>
-                        <button class="h3">코딩테스트 보러 가기</button>
+                        <button class="codt h3">채용 공고 보러 가기</button>
+                </div>              
                 </div>
             </div>    
             <div id="ssss">
