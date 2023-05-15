@@ -30,7 +30,6 @@ header {
     top: -1px;
   }
   header div.top nav {
-    
     display: flex;
     margin-left: 15%;
   }
@@ -89,6 +88,8 @@ header {
   }
   header div.top nav p {
     
+  display: flex;
+  justify-content: flex-end;
   }
   header div.top nav p a {
     color: #0888ff;
