@@ -112,26 +112,83 @@ main{
   margin-top: 10px;
 }
 #s #sss{
-  
+  line-height: 1.5;
 }
 #ssss{
+  margin-top: 50px;
+}
+#ssss .subTitle{
   
 }
-#ssss img{
-  width: 100%;
-  height: 275px;
-  background-color: black;
-  margin-top: 50px;
-  border-radius: 25px;
-  animation-name: imgch; 
-  animation-duration: 1s; 
-  animation-iteration-count: infinite; 
-  animation-direction: alternate;
+#ssss .subTitle li{
+  
 }
-@keyframes imgch{
-  0%{
-    
-  }
+#ssss .subTitle li a{
+  
+}
+#ssss .subTitle li a figure{
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+}
+.l1{
+  background-color: #051060;
+}
+.l2{
+  background-color: #707df3;
+}
+.l3{
+  background-color: #192585;
+}
+.l4{
+  background-color: #000000;
+}
+.l5{
+  background-color: #011c49;
+}
+.l6{
+  background-color: #1d2460;
+}
+.price{
+  padding: 0 !important;
+  color: white;
+  margin-bottom: 5px;
+}
+#ssss .subTitle li a figure span{
+  padding: 25px 50px;
+}
+#ssss .subTitle li a figure span figcaption{
+  color: white;
+  margin: 22px 0;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+#ssss .subTitle li a figure span .logo{
+  color: white;
+  font-size: 11px;
+  display: inline-block;
+  padding: 7px;
+  background-color: #1d1d1d78;
+  border-radius: 5px;
+}
+.ad{
+  position: absolute;
+  color: white;
+  right: 20px;
+  top: 15px;
+  font-size: 12px;
+  background-color: #a4a4a469;
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+#ssss img{
+  height: 240px;
+  border-radius: 20px;
+}
+#ssss .subTitle li a figure span .date{
+  color: #b9c0cd;
+  font-size: 14px;
 }
 #sssss{
 }
@@ -143,11 +200,12 @@ main{
   border: none;
   background-color: transparent;
   border-bottom: 3px solid #ccc;
+  cursor: pointer;
 }
-#sssss #bu button:first-child{
-  border-bottom: 3px solid #2e7af6;
-  color: #2e7af6;
-  font-weight: bold;
+.wlist{
+  display: flex;
+  gap: 20px;
+  width: 686px;
 }
 #im{
   margin-top: 15px;
@@ -175,15 +233,89 @@ main{
   background-position: 0.4px center;
 }
 #im1{
-  width: 368px;
-  height: 320px;
-  background-color: #111;
+  width: 333px;
+  height: 333px;
   border-radius: 20px;
-  margin-left: 20px;
+  display: flex;
+  color: white;
+  padding: 33px;
+  position: relative;
+}
+.li1 #im1:nth-child(1){
+  background: linear-gradient(224.02deg, rgb(23, 116, 198) 4.61%, rgb(0, 224, 190) 93.66%);
+}
+.li1 #im1:nth-child(2){
+  background: linear-gradient(224.02deg, rgb(0, 121, 168) 4.61%, rgb(0, 130, 240) 93.66%);
+}
+.li2 #im1{
+  background: linear-gradient(224.02deg, rgb(0, 67, 168) 4.61%, rgb(0, 130, 240) 93.66%);
+}
+.li3 #im1{
+  background: linear-gradient(231.73deg, rgb(146, 32, 114) 0%, rgb(66, 134, 219) 100%);
+}
+#im1 button{
+  position: absolute;
+  bottom: 33px;
+  width: calc(100% - 33px * 2);
+  left: 33px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#im1 div{
+  height: calc(100% - 40px);
+}
+#im1 div:nth-child(1){
+  
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#im1 div:nth-child(2){
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.li3{
+  
+}
+.li3 #im1{
+  position: relative;
+}
+.li3 #im1 div:nth-child(2){
+  position: absolute;
+  right: 20px;
+  width: 122px;
+  display: block;
+  top: calc(50% - 45px);
+}
+#im1 div h2{
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 18px;
+}
+#im1 div p{
+  
+}
+#im1 div img{
+  
+  width: 100%;
+  height: 90px;
+}
+#im1 div span{
+  
+  font-size: 16px;
+  margin-left: 5px;
+}
+#im1 div .wprice{
+  
+  font-size: 27px;
+  margin-bottom: 15px;
 }
 #im2{
   
-  display: flex;
 }
 #sssss .sc{
 }
@@ -253,22 +385,74 @@ main{
   
 }
 #aaa #s04 .scc3 #mbar{
-  
+  width: 700px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
-#aaa #s04 .scc3 #mbar div{
-  width: 766px;
-  height: 210px;
-  border: 1px solid;
-  border-radius: 20px;
+#aaa #s04 .scc3 #mbar .hdimg{
+  overflow: hidden;
+  width: 40%;
+  border-radius: 0 10px 0 0;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 100%;
+}
+#aaa #s04 .scc3 #mbar .hdimg img{
+  
+  position: absolute;
+  height: 100%;
+  right: -50%;
 }
 #aaa #s04 .scc3 .a3{
   position: absolute;
   top: 100px;
   left: 0.5px;
 } 
-#aaa #s04 .scc3 #mbar div:first-child{
+#aaa #s04 .scc3 #mbar .wbar{
   
-  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  height: 133px;
+}
+#mbar div .con{
+  width: 60%;
+  padding: 33px;
+}
+#mbar div .con h3{
+  font-weight: bold;
+}
+.wdate{
+  margin-top: 19px;
+}
+.wdate p{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 311px;
+  color: #1080ff;
+  font-weight: bold;
+  line-height: 1.7;
+}
+.wdate .wwdate{
+  font-weight: initial;
+  color: #555;
+}
+.code{
+  padding: 0 33px;
+  font-size: 0;
+  display: flex;
+  gap: 5px;
+  border-top: 1px solid #ccc;
+  margin-top: -2px;
+  padding-top: 22px;
+}
+.code a{
+  font-size: 12px;
+  background-color: #cccccc77;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 #aaa #s04 .scc3 .a3:after{
   content: "";
@@ -375,10 +559,10 @@ main{
 
 }
 #aaaaa #s06 .scc6 a button{
-  
   color: #0084ff;
   padding: 5px;
   padding-right: 20px;
   padding-left: 20px;
+  cursor: pointer;
 }
 
